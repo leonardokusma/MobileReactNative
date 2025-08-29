@@ -5,9 +5,29 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "Start": "ts-node"
+    "start": "ts-node"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardokusma/MobileReactNative.git"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/leonardokusma/MobileReactNative/issues"
+  },
+  "homepage": "https://github.com/leonardokusma/MobileReactNative#readme",
+  "dependencies": {
+    "node": "^24.7.0",
+    "prompt-sync": "^4.2.0",
+    "ts": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/prompt-sync": "^4.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
 }
